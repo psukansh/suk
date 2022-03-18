@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .homepage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .homepage .content {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-image: linear-gradient(90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1439754389055-9f0855aa82c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.container .homepage .info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+
+.container .homepage .info h1{
+	font-size: 60px;
+	font-weight: 800;
+}
+
+.container .homepage .info .quote{
+	background-image: url("data:image/svg+xml,%3Csvg width='326' height='145' viewBox='0 0 326 145' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.7479 0.5H316C321.247 0.5 325.5 4.75329 325.5 10V98C325.5 103.247 321.247 107.5 316 107.5H49.3707C46.1425 107.5 43.0937 108.985 41.1035 111.527L18.6641 140.184C13.2974 147.038 2.3057 143.665 1.70678 134.981L0.50044 117.489L3.25103 9.75752C3.38254 4.60695 7.59569 0.5 12.7479 0.5Z' fill='white' stroke='white'/%3E%3C/svg%3E%0A");
+	width: 300px;
+	height: 145px;
+	color: black;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.container .homepage .info #button{
+	width: 150px;
+	height: 40px;
+	background-color: rgb(255, 166, 0);
+	color: black;
+	font-weight: 700;
+	outline: none;
+	border: none;
+	border-radius: 7px;
+	margin: 20px 0px;
+	cursor: pointer;
+}
+
